@@ -1,10 +1,13 @@
-<script>
-  $(document).ready(function(){
-    
-  }); 
-</script>
 <!-- Escribimos nuestro primer script y la función document.ready que se 
   ejecutara antes de que se procese el HTML -->
+<script>
+  $(document).ready(function(){ // añadimos una clase de las tres formas diferentes.
+    $("button").addClass("animated"); 
+    $(".btn").addClass("shake");
+    $("#target1").addClass("btn-primary");
+  }); 
+</script>
+
 
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
